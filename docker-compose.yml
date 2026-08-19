@@ -1,0 +1,9 @@
+services:
+  web:
+    build: ./
+    container_name: olympic-front
+    restart: always
+
+    ports:
+    - "80:80"      
+           
