@@ -126,3 +126,5 @@ Les tests utilisent `createMemoryRouter` avec `hydrationData` pour injecter les 
 ## License
 
 MIT
+
+test semver Thierry Heinz
