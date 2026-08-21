@@ -15,5 +15,9 @@ export default {
     '!src/types/**'
   ],
   coverageDirectory: 'coverage',
-  verbose: true
+  verbose: true,
+  reporters: ['default',  ['jest-junit', {
+      outputDirectory: 'test-results',
+      outputName: 'junit.xml'
+    }]]
 };
