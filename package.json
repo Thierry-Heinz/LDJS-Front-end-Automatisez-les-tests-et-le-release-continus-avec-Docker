@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Olympic Participation Tracker - React 19 frontend for visualizing Olympic Games data",
   "type": "module",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
